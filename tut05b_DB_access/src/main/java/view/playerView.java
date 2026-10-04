@@ -36,12 +36,12 @@ public class playerView {
 
                 sd.Player_id = Format.fmtInteger(results.getObject("Player_id"));
                 sd.Player_Username = Format.fmtString(results.getObject("Player_Username"));
-                // sd.Player_Skin = Format.fmtString(results.getObject("Player_Skin"));
-                // sd.Nether_Enter_Time = Format.fmtTime(results.getObject("Nether_Enter_Time"));
-                // sd.Stronghold_Enter_Time = Format.fmtTime(results.getObject("Stronghold_Enter_Time"));
-                // sd.Final_Time = Format.fmtTime(results.getObject("Final_Time"));
-                // sd.Starting_Structure = Format.fmtString(results.getObject("Starting_Structure"));
-                // sd.BastionType = Format.fmtString(results.getObject("Bastion_Type"));
+                sd.Player_Skin = Format.fmtString(results.getObject("Player_Skin"));
+                sd.Nether_Enter_Time = Format.fmtTime(results.getObject("Nether_Enter_Time"));
+                sd.Stronghold_Enter_Time = Format.fmtTime(results.getObject("Stronghold_Enter_Time"));
+                sd.Final_Time = Format.fmtTime(results.getObject("Final_Time"));
+                sd.Starting_Structure = Format.fmtString(results.getObject("Starting_Structure"));
+                sd.BastionType = Format.fmtString(results.getObject("Bastion_Type"));
                 sd.web_user_id = Format.fmtInteger(results.getObject("web_user_id"));
                 sdl.add(sd);
             }
